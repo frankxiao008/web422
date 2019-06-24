@@ -1,6 +1,6 @@
 // Convert characters like ' to HTML entities using
 // https://github.com/mathiasbynens/he#heencodetext-options
-import { encode } from "he";
+import { encode } from 'he';
 
 const bridgeUrl = 'https://api.myjson.com/bins/17fpo0';
 
@@ -26,5 +26,5 @@ export default function() {
 
       return bridges;
     });
-    // NOTE: we aren't going to deal with errors here, caller must .catch()
+    // NOTE: we aren't going to deal with errors here, caller must
 }
